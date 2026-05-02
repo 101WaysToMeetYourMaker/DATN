@@ -1,0 +1,6 @@
+path: /mnt/d/merged_fruit_36_clean_v2/yolo_fruit_dataset
+train: images/train
+val: images/val
+
+names:
+  0: fruit
