@@ -1,0 +1,25 @@
+# configs/fruit_botsort_occlusion.yaml
+
+tracker_type: botsort
+
+# Giữ detection yếu hơn để không mất trái bị che một phần
+track_high_thresh: 0.15
+track_low_thresh: 0.05
+new_track_thresh: 0.25
+
+# Giữ track lâu hơn khi trái bị che khuất vài frame
+track_buffer: 90
+
+# Ghép detection với track cũ
+match_thresh: 0.80
+fuse_score: True
+
+# Hữu ích nếu camera/video hơi rung hoặc chuyển động
+gmc_method: sparseOptFlow
+
+# ReID: để False cho dễ chạy ổn định trước.
+# Nếu máy bạn chạy được và muốn chống đổi ID tốt hơn, đổi thành True.
+proximity_thresh: 0.50
+appearance_thresh: 0.80
+with_reid: False
+model: auto

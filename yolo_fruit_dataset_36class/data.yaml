@@ -1,0 +1,39 @@
+path: /mnt/d/merged_fruit_36_clean_v2/yolo_fruit_dataset_36class
+train: images/train
+val: images/val
+nc: 34
+names:
+  0: apple_fresh
+  1: apple_rotten
+  2: avocado_fresh
+  3: avocado_rotten
+  4: banana_fresh
+  5: banana_rotten
+  6: bellpepper_fresh
+  7: bellpepper_rotten
+  8: carambola_fresh
+  9: carambola_rotten
+  10: carrot_fresh
+  11: carrot_rotten
+  12: cucumber_fresh
+  13: grape_fresh
+  14: grape_rotten
+  15: guava_fresh
+  16: guava_rotten
+  17: jujube_fresh
+  18: lemon_fresh
+  19: lemon_rotten
+  20: mango_fresh
+  21: mango_rotten
+  22: orange_fresh
+  23: orange_rotten
+  24: peach_fresh
+  25: peach_rotten
+  26: pomegranate_fresh
+  27: pomegranate_rotten
+  28: potato_fresh
+  29: potato_rotten
+  30: strawberry_fresh
+  31: strawberry_rotten
+  32: tomato_fresh
+  33: tomato_rotten
